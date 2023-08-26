@@ -10,13 +10,17 @@
 
 .discount-alert {
     background-color: #00AEFF;
-    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 60px;
-    text-align: center;
-    vertical-align: middle;
 }
 
-header > h1 {
+header > h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
     text-align: center;
 }
 
@@ -28,3 +32,32 @@ header > div {
 }
 
 .title{}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.item-background {
+    background-color: #EBE9EA;
+    width: 350px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.item-background > img {
+    width: 250px;
+    height: 150px;
+}
+
+footer {
+    background-color: #00AEFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
