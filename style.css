@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-style: none;
+}
+
+.discount-alert {
+    background-color: #00AEFF;
+    width: 100vw;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+header > div {
+    height: 378px;
+    max-height: 378px;
+    background: url(background.png) no-repeat   ;
+    background-size: cover;
+}
+
+.title{}
