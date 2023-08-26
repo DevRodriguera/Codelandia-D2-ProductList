@@ -33,6 +33,18 @@ header > div {
 
 .title{}
 
+header {
+    margin-bottom: 4vw;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 .items {
     display: flex;
     flex-wrap: wrap;
@@ -49,12 +61,14 @@ header > div {
     align-items: center;
 
 }
+
 .item-background > img {
     width: 250px;
     height: 150px;
 }
 
 footer {
+    margin-top: 5vw;
     background-color: #00AEFF;
     display: flex;
     align-items: center;
