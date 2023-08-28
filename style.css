@@ -26,12 +26,33 @@ header > h2 {
 
 header > div {
     height: 378px;
-    max-height: 378px;
-    background: url(background.png) no-repeat   ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(background.png) no-repeat;
     background-size: cover;
 }
 
-.title{}
+/*header > div::before {
+    content: "";
+    position: absolute;
+    height: 378px;
+    width: 100%;
+    inset: 0;
+    background: linear-gradient(rgba(0,0,0,.3) rgba(0,0,0,.3)), url(background.png) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    z-index: -1;
+}*/
+
+.title {
+    color: white;
+}
+
+.subtitle {
+    color: white;
+}
 
 header {
     margin-bottom: 4vw;
