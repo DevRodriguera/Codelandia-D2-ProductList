@@ -30,7 +30,7 @@ header > div {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(background.png) no-repeat;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/background.png) no-repeat;
     background-size: cover;
 }
 
@@ -45,6 +45,10 @@ header > div {
     background-position: bottom;
     z-index: -1;
 }*/
+
+.title .subtitle {
+    margin-top: 20px;
+}
 
 .title {
     color: white;
@@ -63,7 +67,14 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+}
+
+.titleDestaques {
+    margin-bottom: 4vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .items {
